@@ -1,3 +1,57 @@
 * {
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav section style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.list-item {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+/* banner section */
+.banner-section {
+    padding: 45px 240px;
+}
+
+.banner-section img {
+    width: 100%;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    margin-bottom: 50px;
 }
