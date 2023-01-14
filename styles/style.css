@@ -1,10 +1,10 @@
 * {
-    margin: 0;
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-.header {
+header {
     background: rgba(255, 144, 14, 0.1);
 }
 
@@ -14,7 +14,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    padding: 50px 200px;
+
+
 }
 
 .list-item {
@@ -44,8 +46,9 @@ nav {
 .banner-discription {
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 20px;
-    margin-top: 16px;
+    /* margin-bottom: 20px;
+    margin-top: 16px; */
+    margin: 20px 200px;
 }
 
 .btn-primary {
@@ -54,4 +57,212 @@ nav {
     width: 180px;
     height: 64px;
     margin-bottom: 50px;
+    border: none;
+}
+
+/* feature section */
+.feature-section {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 70px; */
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    margin: 80px 280px;
+    /* padding: 85px 100px; */
+    /* width: 50%; */
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    row-gap: 24px;
+}
+
+.feature-img img {
+    /* width: 342px;
+    height: 342px; */
+    border-radius: 8px;
+}
+
+.f-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.f-title1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.f-title2 {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.f-discription {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+/* feature 2 section */
+.feature2-section {
+    display: flex;
+    /* margin: 100px 230px; */
+    margin: 100px 230px 0px 230px;
+
+    gap: 50px;
+}
+
+.feature2-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+    border-left: #FF900E solid 4px;
+    margin-bottom: 24px;
+}
+
+.all-cart {
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.feature-cart {
+    /* width: 586px;
+    height: 171px; */
+    padding: 16px;
+    border-radius: 5px;
+    column-gap: 10px;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 0.2);
+    /* row-gap: 15px; */
+    margin-bottom: 16px;
+
+}
+
+.all-cart h2 {
+    font-weight: 600;
+    font-size: 25px;
+    /* margin-bottom: 16px; */
+}
+
+.all-cart p {
+    font-size: 18px;
+}
+
+/* .feature-left {
+    display: flex;
+    flex-direction: column;
+} */
+
+.feature-img {
+    /* position: relative; */
+    /* width: 708px;
+    height: 982px; */
+    float: right;
+}
+
+/* experience */
+.experience {
+    text-align: center;
+}
+
+.btn-secondary {
+    /* position: absolute; */
+    text-align: center;
+    /* bottom: 0; */
+    width: 342px;
+    height: 200px;
+    /* width: 0 auto; */
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.btn-secondary-title {
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+/* facts */
+.facts {
+    padding: 100px 240px;
+}
+
+.title-facts {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.facts-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 240px;
+}
+
+.box {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.box h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* our sponsor */
+.sponsor-section {
+    padding-top: 170px;
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.sponser-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 240px;
+}
+
+/* footer section */
+.footer-section {
+    font-weight: 400;
+    font-size: 20px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+    margin: 100px 240px;
 }
