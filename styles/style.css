@@ -56,6 +56,9 @@ nav {
     height: 64px;
     margin-bottom: 50px;
     border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* feature section */
@@ -105,7 +108,6 @@ nav {
 .feature2-section {
     display: flex;
     margin: 100px 230px 0px 230px;
-
     gap: 50px;
 }
 
@@ -136,22 +138,13 @@ nav {
 .all-cart h2 {
     font-weight: 600;
     font-size: 25px;
-    /* margin-bottom: 16px; */
 }
 
 .all-cart p {
     font-size: 18px;
 }
 
-/* .feature-left {
-    display: flex;
-    flex-direction: column;
-} */
-
 .feature-img {
-    /* position: relative; */
-    /* width: 708px;
-    height: 982px; */
     float: right;
 }
 
@@ -161,16 +154,15 @@ nav {
 }
 
 .btn-secondary {
-    /* position: absolute; */
     text-align: center;
-    /* bottom: 0; */
     width: 342px;
     height: 200px;
-    /* width: 0 auto; */
     background-color: #FF900E;
     border: none;
     border-radius: 5px;
     color: white;
+    font-weight: 600;
+    font-size: 20px;
 
 }
 
