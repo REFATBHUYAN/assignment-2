@@ -208,6 +208,10 @@ nav {
 
 }
 
+.project-section img {
+    border-radius: 8px;
+}
+
 /* facts */
 .facts {
     padding: 100px 240px;
