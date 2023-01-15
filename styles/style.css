@@ -8,6 +8,11 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
+.dispription {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* nav section style */
 
 nav {
@@ -23,6 +28,8 @@ nav {
     list-style: none;
     display: flex;
     gap: 40px;
+    font-size: 18px;
+    font-weight: 600px;
 }
 
 /* banner section */
@@ -108,7 +115,7 @@ nav {
 .feature2-section {
     display: flex;
     margin: 100px 230px 0px 230px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .feature2-title {
@@ -129,7 +136,7 @@ nav {
 .feature-cart {
     padding: 16px;
     border-radius: 5px;
-    column-gap: 10px;
+    column-gap: 16px;
     box-shadow: 0 3px 3px rgb(0 0 0 / 0.2);
     margin-bottom: 16px;
 
@@ -142,15 +149,20 @@ nav {
 
 .all-cart p {
     font-size: 18px;
+    padding-top: 10px;
 }
 
 .feature-img {
     float: right;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 /* experience */
 .experience {
     text-align: center;
+    margin-top: -170px;
 }
 
 .btn-secondary {
@@ -163,6 +175,7 @@ nav {
     color: white;
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -170,6 +183,28 @@ nav {
     color: white;
     font-weight: 700;
     font-size: 65px;
+
+}
+
+/* extra section */
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: 50px 240px;
+}
+
+.project-section h1 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.project-section p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
 
 }
 
@@ -197,7 +232,14 @@ nav {
     border-radius: 8px;
     text-align: center;
     padding-top: 50px;
+    transition: width 1s ease, height 1s ease;
 
+}
+
+.box:hover {
+    width: 270px;
+    height: 270px;
+    background-color: aqua;
 }
 
 .box h1 {
@@ -253,6 +295,10 @@ nav {
         padding: 0;
     }
 
+    .list-item {
+        flex-direction: column;
+    }
+
     .banner-section {
         padding: 0px;
         margin: 0 auto;
@@ -285,6 +331,17 @@ nav {
         flex-direction: column;
         text-align: center;
         margin: 0;
+    }
+
+    .project-section {
+        margin: 0;
+        padding: 5px;
+        row-gap: 5px;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .facts {
